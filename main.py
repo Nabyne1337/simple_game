@@ -38,23 +38,23 @@ while True:
         if enemy_y_pos >= 440:
             going_down = False
     else:
-        enemy_y_pos -= 4.25
+        enemy_y_pos -= 4.85
         if enemy_y_pos <= 0:
             going_down = True
     if going_downTwo:
-        enemy_y_posTwo += 4.25
+        enemy_y_posTwo += 5.25
         if enemy_y_posTwo >= 440:
             going_downTwo = False
     else:
-        enemy_y_posTwo -= 4.25
+        enemy_y_posTwo -= 5.25
         if enemy_y_posTwo <= 0:
             going_downTwo = True
     if going_downThree:
-        enemy_y_posThree += 4.25
+        enemy_y_posThree += 9.25
         if enemy_y_posThree >= 440:
             going_downThree = False
     else:
-        enemy_y_posThree -= 4.25
+        enemy_y_posThree -= 9.25
         if enemy_y_posThree <= 0:
             going_downThree = True
 
